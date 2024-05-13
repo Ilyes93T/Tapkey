@@ -1,0 +1,96 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #12729b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #12729b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Style du formulaire de création d'accès */
+#accessForm {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff8a;
+    text-align: center;
+}
+
+#accessForm input[type="text"],
+#accessForm input[type="date"],
+#accessForm button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Pour inclure la largeur du padding et de la bordure dans la largeur totale */
+}
+
+#accessForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#accessForm button:hover {
+    background-color: #45a049;
+}
+
+/* Style de la liste des accès */
+#accessList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#accessList li {
+    margin-bottom: 10px;
+}
+
+#accessList button {
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#accessList button:hover {
+    background-color: #d3452a;
+}
+
+.inputField {
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box; 
+}

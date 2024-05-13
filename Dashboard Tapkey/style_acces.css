@@ -1,0 +1,58 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/background_acces.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px; /* Réduire la largeur du conteneur pour le formulaire de connexion */
+    margin: 60px auto 100px; /* Garder la même marge inférieure et ajuster la marge supérieure à 50px */
+    padding: 20px;
+    border: 1px solid #cccccc80;
+    border-radius: 5px;
+    background-color: #ffffff8a; /* Fond blanc */
+    text-align: center; /* Centrer le contenu */
+}
+
+header {
+    background-color: #12729b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center; /* Centrer le titre */
+}
+
+/* Style du formulaire de connexion */
+#loginForm {
+    margin-top: 20px; /* Espacement par rapport au titre */
+}
+
+#loginForm input[type="text"],
+#loginForm input[type="password"],
+#loginForm button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#loginForm button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginForm button:hover {
+    background-color: #45a049;
+}
